@@ -1,0 +1,171 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.dashboard {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== HEADER ===== */
+.dashboard h2 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  text-align: center;
+  color: #555;
+}
+
+/* ===== USER ROLE TAG ===== */
+.role {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-left: 8px;
+  color: white;
+}
+
+.role.admin {
+  background: #10b981;
+}
+
+.role.member {
+  background: #6366f1;
+}
+
+/* ===== STATS ===== */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stat-box {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-weight: bold;
+}
+
+.stat-box.pending {
+  color: #f59e0b;
+}
+
+.stat-box.completed {
+  color: #10b981;
+}
+
+/* ===== FORM ===== */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.task-form input,
+.task-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.task-form button {
+  padding: 10px 15px;
+  border: none;
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task-form button:hover {
+  background: #4f46e5;
+}
+
+/* ===== TASK LIST ===== */
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+/* ===== TASK CARD ===== */
+.task-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+
+.task-card h4 {
+  margin: 0;
+  color: #1f2937;
+}
+
+.task-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* ===== STATUS ===== */
+.status {
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #f59e0b;
+}
+
+.status.done {
+  color: #10b981;
+}
+
+/* ===== BUTTON ===== */
+.task-card button {
+  margin-top: 10px;
+  padding: 6px 10px;
+  border: none;
+  background: #10b981;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.task-card button:hover {
+  background: #059669;
+}
+
+/* ===== LOGOUT ===== */
+.logout-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
