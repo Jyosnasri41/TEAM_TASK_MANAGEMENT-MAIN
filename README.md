@@ -40,7 +40,7 @@ A full-stack MERN application to manage projects, assign tasks, and track progre
 
 ## 🌐 Live Demo
 
-Frontend: https://team-task-management-taupe.vercel.app/ 
+Frontend: https://team_task_management-taupe.vercel.app/ 
 
 
 ---
@@ -48,7 +48,7 @@ Frontend: https://team-task-management-taupe.vercel.app/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/team-task-manager.git
+git clone https://github.com/yourusername/team_task_manager.git
 cd backend
 npm install
 npm start
@@ -62,4 +62,4 @@ npm start
 
 ## 📌 Author
 
-G Vivek Chary
+Poripireddi Jyosnasri
