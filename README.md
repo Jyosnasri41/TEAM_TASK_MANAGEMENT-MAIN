@@ -40,7 +40,7 @@ A full-stack MERN application to manage projects, assign tasks, and track progre
 
 ## 🌐 Live Demo
 
-Frontend: https://team_task_management-taupe.vercel.app/ 
+Frontend: https://team-task-management-main.vercel.app/
 
 
 ---
